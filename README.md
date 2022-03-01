@@ -5,8 +5,12 @@ Simple constexpr lower/upper string like object creator.
 ```
 mkdir build
 cd build
-cmake ..
+cmake [-DBUILD_EXAMPLES=ON] ..
 make install
+```
+# Usage
+```
+see https://github.com/TaeZStkyoht/ConstexprLowerUpperString/blob/main/examples/src/main.cpp
 ```
 # Uninstallation
 In the build directory:
